@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Patrocinadores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vamos jogar Bingo?</h1>
+        <div class="form-group">
+            <label for="sponsor-name">Nome do Patrocinador:</label>
+            <input type="text" id="sponsor-name" placeholder="Digite o nome do patrocinador">
+        </div>
+        <div class="form-group">
+            <label for="sponsor-number">Número da Pedra:</label>
+            <input type="number" id="sponsor-number" placeholder="Digite o número da pedra" min="1" max="75">
+        </div>
+        <div class="buttons">
+            <button class="btn save" onclick="saveSponsor()">Salvar</button>
+            <button class="btn start" onclick="startGame()">Iniciar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
